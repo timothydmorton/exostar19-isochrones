@@ -20,4 +20,3 @@ Each dataset should be a whitespace- or comma-separated table, with the followin
 
 Each contributed dataset should be accompanied with a description below explaining what it is, and
 where it comes from.
-
