@@ -20,3 +20,6 @@ Each dataset should be a whitespace- or comma-separated table, with the followin
 
 Each contributed dataset should be accompanied with a description below explaining what it is, and
 where it comes from.
+
+### K2 host star dataset (k2_input_isochrones.csv)
+All K2 host stars extracted from the NExScI K2 candidate table on April 21 2019 that have either a "CANDIDATE" or "CONFIRMED" disposition. Coordinates, Johnson, Sloan and 2MASS photometry were taken from the EPIC; Gaia parallax and photometry were obtained through a positional and magnitude cross-match to Gaia DR2 as described in Berger et al. 2018. 
