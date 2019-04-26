@@ -23,3 +23,6 @@ where it comes from.
 
 ### K2 host star dataset (k2_input_isochrones.csv)
 All K2 host stars extracted from the NExScI K2 candidate table on April 21 2019 that have either a "CANDIDATE" or "CONFIRMED" disposition. Coordinates, Johnson, Sloan and 2MASS photometry were taken from the EPIC; Gaia parallax and photometry were obtained through a positional and magnitude cross-match to Gaia DR2 as described in Berger et al. 2018. 
+
+### Maxted et al. 2015 dataset (Maxted2015.csv)
+Planet host stars from Maxted et al., 2015A&A...577A..90 " Comparison of gyrochronological and isochronal age estimates for transiting exoplanet host stars. " Targets have been cross-matched with Gaia DR2, APASS DR9  and WISE (inc. 2MASS).  
