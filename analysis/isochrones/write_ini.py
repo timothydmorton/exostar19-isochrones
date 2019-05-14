@@ -6,4 +6,4 @@ df['parallax'] *= 1000
 df['parallax_unc'] *= 1000
 bands = ['g', 'r', 'J', 'H', 'K', 'Bp', 'Rp']  #, 'B', 'V']
 k2cat = StarCatalog(df, props=['parallax'], bands=bands)
-k2cat.write_ini(root='results/isochrones')
+k2cat.write_ini(root='../../results/isochrones')
