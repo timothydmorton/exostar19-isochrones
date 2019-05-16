@@ -1,6 +1,6 @@
 # Stellar property analysis with **isochrones**
 
-Make sure you are using `isochrones >= 2.0.1`.  Then, run
+Make sure you are running latest master branch of **isochrones**.  Then, run
 
     python write_ini.py
 
@@ -39,7 +39,14 @@ And if you want to run binaries, do (e.g.):
 To make a summary table of results (single and binary), run:
 
     starfit-summarize -f all.list -p 12 -o single_summary.h5  # -p is number of processes to use
-    starfit-summarize -f all.list -p 12 -o binary_summary.h5 --modelname mist_starmodel_binary
+    starfit-summarize -f all.list -p 12 -o binary_summary.h5  --modelname mist_starmodel_binary
+
+## Loading results
+
+```python
+import pandas as pd
+df = pd.read_hdf('single_summary.h5')
+```
 
 
 
